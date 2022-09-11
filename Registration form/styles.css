@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+    color: rebeccapurple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form{
+    background-color:rgb(162, 221, 167);
+    width:60vw;
+    max-width: 500px;
+    min-width: 400px;
+    margin: 0 auto;  
+}
+input{
+    margin-bottom: 10px;
+    display:block;
+    margin-left: 30%;
+}
+
+label {
+    margin-left: 30%;
+    font-size: large;
+    margin: 0.5rem 0;
+  }
+#acceptTerms{
+    display: inline;
+}
+input:invalid:focus {
+    border: 2px solid red;
+  }
+  
+  .table {
+    border: 2px solid black;
+    margin: 40px auto;
+  }
+  
+  .td,
+  .th {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .subHead {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .text_center{
+    color: red;
+  }
+button {
+    background-color:rgb(76, 63, 229);
+    color: rgb(254, 254, 255);
+    padding: 10px 20px;
+    font-size: medium;
+    font-weight: 400;
+    border-radius: 10px;
+    display: block;
+    align-content: center;
+
+  } 
+.adjust{
+    margin-left: 30%;
+}
+#submit{
+    margin-left: 30%;
+}
+.top{
+    margin-top: 10px;
+}
